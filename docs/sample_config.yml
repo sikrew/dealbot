@@ -13,7 +13,7 @@ triggers:
     cadences:
       # One of these cadences will be selected at random
       - 7x7     # A standard cadence from the library
-      - 5x12: 2 # Here we're assigning a weight so it's picked more often (default: 1)
+      - 5x11: 2 # Here we're assigning a weight so it's picked more often (default: 1)
       - 1x1     # A custom cadence defined below
   onboarding:
     pipeline: 2
